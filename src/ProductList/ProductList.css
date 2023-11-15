@@ -1,0 +1,118 @@
+.container{
+    width: 1150px;
+    margin-left: 200px;
+ /* justify-content: center; */
+     /* padding-left: 150px; */
+    /* padding-right:50px;  */
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    grid-gap: 60px;
+
+}
+.section1{
+    font-family: 'Permanent Marker', cursive;
+    color: aliceblue;
+    display: flex;
+    justify-content: start;
+    font-size: 100px;
+    padding-left: 120px;
+    margin-top: 20px;
+    
+}
+.describe-section{
+    color: aliceblue;
+    display: flex;
+    justify-content: start;
+    padding-left: 120px;
+    font-size: 21px;
+    width: 700px;
+    text-align: start;
+    margin-top: -70px ;
+    margin-bottom: 60px;
+}
+.block1{
+    width: 390px;
+    display: flex;
+    text-align: start;
+    
+
+}
+.name-burger{
+    font-size: 30px;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.name-burger:hover{
+color: rgb(217, 103, 16);
+}
+.price{
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: -25px;
+    }
+.describe-burger{
+    font-size: 18px;
+    color: aliceblue;
+    width: 300px;
+    margin-top: -20px;
+}
+
+
+.photo-burger{
+    width: 200px;
+    padding-left:320px;
+    margin-top: -280px;
+}
+
+.photo-sauce{
+        cursor: pointer;
+        padding-left: 120px;
+        margin-top: -180px;
+}
+.choose{
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 23px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.189);
+}
+
+.choose:hover {
+    background-color: rgb(241, 235, 235) !important;
+    color: rgb(11, 10, 10) !important;
+    border-color: rgb(11, 10, 10) !important;
+    /* Добавьте изменение цвета границы при hover */
+}
+
+
+.container2 {
+    width: 1150px;
+    margin-left: 200px;
+    justify-content: center;
+    /* padding-left: 150px; */
+    /* margin-right:50px;  */
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    grid-gap: 50px;
+
+}
+
+.container5 {
+    width: 1150px;
+    margin-left: 200px;
+    justify-content: center;
+    /* padding-left: 150px; */
+    /* margin-right:50px;  */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 50px;
+
+}

@@ -1,0 +1,99 @@
+.contacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+   padding-left: 300px;
+   padding-bottom: 30px;
+}
+.titile-serv,
+.titile-serv1,
+.titile-serv2{
+    text-decoration: underline;
+    padding-top: -40px;
+    width: 100%;
+    color: aliceblue;
+    font-size: 38px;
+    text-align: start;
+}
+.titile-serv1,
+.titile-serv2{
+    margin-top: -40px;
+}
+.our-service{
+    color: aliceblue;
+    list-style: none;
+    text-align: start;
+}
+.email{
+    font-size: 21px;
+    margin-top: -30px;
+    text-decoration: none;
+    color: aliceblue;
+    text-align: start;
+}
+.email:hover{
+    color: rgb(217, 103, 16);
+}
+.logo{
+    color: rgb(217, 103, 16);  
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 21px;
+}
+
+a:hover{
+color: rgb(217, 103, 16);
+}
+.header-contact{
+        
+}
+.header-menu-contact{
+    justify-content: end;
+    padding-right: 150px;
+    display: flex;
+    /* margin: -50px; */
+    justify-content: end;
+  margin-top: -50px;
+    color: rgb(242, 237, 237);
+    list-style: none;
+}
+.header-menu-contact li{
+    padding-right: 20px;
+    font-size: 25px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.header-menu-contact li:hover{
+    color: rgb(217, 103, 16);
+}
+.footer-contact{
+    display: flex;
+}
+.footer-menu-contact{
+    display: flex;
+   
+}
+.footer-menu-contact li{
+    cursor: pointer;
+    list-style: none;
+    justify-content: start;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 22px;
+    color:aliceblue;
+}
+
+.footer-menu-contact li:hover{
+    color: rgb(217, 103, 16);
+}
+.media-contact{
+    padding-top: 65px;
+    margin-left: 30px;
+}
+/* .icon3{
+    padding-right: 20px;
+    width: 30px;
+    height: 30px;
+} */

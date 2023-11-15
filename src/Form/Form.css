@@ -1,0 +1,42 @@
+form{
+
+justify-content: center;
+}
+.item-form input,
+.item-form textarea,
+.adress{
+    width: 205%;
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    text-align: start;
+    font-size: 15px;
+    padding-left: 20px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0.278);
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(126, 123, 123, 0.31);
+}
+
+.item-form textarea{
+    height: 100px;
+}
+
+button {
+
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgba(126, 123, 123, 0.31);
+    cursor: pointer;
+    margin-top: 20px;
+   
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.095);
+    background-color: rgba(240, 248, 255, 0.278);
+}
+
+button:hover {
+    border: 0.5px solid rgba(0, 0, 0, 0);
+    background-color: rgba(240, 248, 255, 0.657);
+}

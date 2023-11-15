@@ -1,0 +1,53 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    gap: 15px;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: 80px;
+    
+}
+
+.slider img{
+    border-radius: 35px;
+    width: 1020px;
+    height: 500px;
+   
+}
+.slider video{
+    border-radius: 25px;
+        width: 1020px;
+        height: 500px;
+}
+
+
+.left,
+.right {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+}
+
+.left{
+    border-top: 4px solid rgb(212, 212, 206);
+    border-left:4px solid rgb(212, 212, 206);
+    transform: rotate(-45deg);  
+}
+.left:hover {
+    border-top: 4px solid rgb(217, 103, 16);
+    border-left: 4px solid rgb(217, 103, 16);
+}
+
+.right{
+    border-top: 4px solid rgb(212, 212, 206);
+    border-right: 4px solid rgb(212, 212, 206);
+    transform: rotate(45deg);
+}
+
+.right:hover {
+    border-top: 4px solid rgb(217, 103, 16);
+    border-right: 4px solid rgb(217, 103, 16);
+ 
+}
+

@@ -1,0 +1,82 @@
+.your-order{
+color: aliceblue;
+display: flex;
+padding-left: 120px;
+font-size: 35px;
+margin-top: -50px;
+}
+.gen-ord{
+   display: flex;
+   justify-content: space-around;
+  
+    
+}
+.basket-name{
+    font-family: 'Permanent Marker', cursive;
+        color: aliceblue;
+        display: flex;
+        justify-content: start;
+        font-size: 100px;
+        padding-left: 120px;
+        margin-top: 20px;
+}
+.header-menu2{
+       display: flex;
+        overflow: auto;
+        justify-content: space-around;
+        padding: 60px 0px 0px 120px;
+        display: flex;
+        justify-content: start;
+        list-style: none;
+        color: aliceblue;
+        font-size: 23px;
+        cursor: pointer;
+}
+
+.header-menu2 li {
+    padding-right: 25px;
+}
+
+.header-menu2 li:hover{
+    color: rgb(217, 103, 16);
+}
+.order{
+display: grid;
+grid-template-columns: 1fr 1fr   ;
+column-gap: 10px;
+margin-left: -40px;
+margin-right: 50px;
+}
+.orders{
+    cursor: pointer;
+    margin-top: 20px;
+    border: 1px solid white;
+    font-size: 23px;
+    padding: 20px;
+    text-align: start;
+    color: aliceblue;
+ 
+}
+
+.form{
+    align-content: center;
+    padding-right: 200px;
+}
+
+.plus,
+.minus{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.plus:hover{
+    background: green;
+}
+.minus:hover{
+    background: red;
+}
+.quanity{
+    color: aliceblue;
+    margin-left: 20px;
+}

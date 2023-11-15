@@ -1,0 +1,30 @@
+.menu-container{
+z-index: 125;
+position: sticky;
+padding-top: 10px;
+padding-bottom: 10px;
+top:0;
+background: black;
+}
+
+.scroll-menu {
+        display: flex;
+            overflow: auto;
+            align-items: center;
+            
+  
+    padding: 60px 0px 0px 120px;
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    color: aliceblue;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.scroll-menu li{
+    padding-right: 25px;
+}
+.scroll-menu li:hover {
+    color: rgb(217, 103, 16);
+}
