@@ -1,12 +1,12 @@
 .logo{
-color: rgba(181, 100, 33, 0.939);
- display: flex;
- justify-content: start;
- padding-left: 50px;
- padding-top: 20px;
-font-family: 'Permanent Marker', cursive;
-font-size: 24px;
-text-shadow: 2px 2px 3px rgb(87, 74, 27);
+    color: rgba(181, 100, 33, 0.939);
+    display: flex;
+    justify-content: start;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    text-shadow: 2px 2px 3px rgb(87, 74, 27);
 }
 
 .header-menu{
@@ -26,13 +26,12 @@ text-shadow: 2px 2px 3px rgb(87, 74, 27);
     height: 50px;
     z-index: 220;
     /* border-radius:  20px; */
-
-
 }
 
 .header-menu li:hover {
-color: rgb(217, 103, 16);
+    color: rgb(217, 103, 16);
 }
+
 .count{
     z-index: 220;
     position: fixed;
@@ -40,6 +39,55 @@ color: rgb(217, 103, 16);
 
     width: 150px;
     color: red;
-    font-size: 30px;
-   
+    font-size: 30px;  
 }
+
+/*MOBILE*/
+@media (max-width: 390px){
+    .logo a{
+        font-size: 32px;
+        color: rgb(217, 103, 16);;
+    }
+        
+    .header-menu{
+        width: 70%;
+        padding: 20px 0px 0px 150px;
+        display: flex;
+        justify-content: space-around; 
+       
+    }
+    .header-menu li{
+        padding: 0px 20px 0px 0px;
+    }
+    .bag{
+       padding-left: 170px;
+    }
+    .count{
+        padding-left: 160px;
+    }
+
+  }
+  
+  @media (min-width: 768px) {
+      .logo a{
+        font-size: 34px;
+       
+    }
+     
+    .bag{
+        padding-left: 100px;
+    }
+    .count{
+        padding-left: 160px;   
+    }
+  }
+  
+  /* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
+  @media (min-width: 992px) {
+   
+  }
+  
+  /* Устройства с большим экраном (компьютеры, 1200px и выше) */
+  @media (min-width: 1200px) {
+  
+    }

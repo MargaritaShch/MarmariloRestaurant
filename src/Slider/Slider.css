@@ -51,3 +51,48 @@
  
 }
 
+@media (max-width: 390px){
+    .slider{
+        width: 100%;   
+        padding-left: 90px;
+    }
+    
+    .slider img{
+        width: 180%;
+        height: 300px;
+    } 
+
+.right{
+    width: 30px;
+    height: 30px;
+   
+}
+
+  }
+  
+  @media (min-width: 768px) {
+    .slider{
+        width: 100%;   
+        display: flex;
+        justify-content: center;
+    }
+    
+    .slider img{
+        margin-bottom: 50px;
+        width: 500px;
+        height: 20%;
+       
+    }
+
+  }
+  
+  /* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
+  @media (min-width: 992px) {
+   
+  }
+  
+  /* Устройства с большим экраном (компьютеры, 1200px и выше) */
+  @media (min-width: 1200px) {
+  
+    }
+

@@ -13,3 +13,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width: 390px){
+  body{
+    /* display: flex; */
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+      /* display: flex; */
+      flex-wrap: wrap;
+    }
+}
+
+/* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
+@media (min-width: 992px) {
+  body {
+      /* display: flex; */
+      flex-wrap: wrap;
+    }
+}
+
+/* Устройства с большим экраном (компьютеры, 1200px и выше) */
+@media (min-width: 1200px) {
+  body {
+      /* display: flex; */
+      flex-wrap: wrap;
+     
+    }
+  }

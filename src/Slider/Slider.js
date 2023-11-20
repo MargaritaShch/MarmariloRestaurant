@@ -3,12 +3,12 @@ import './Slider.css';
 import photo1 from "./ImgSlider/adverts3.jpg";
 import photo2 from "./ImgSlider/adverts4.jpg";
 import photo3 from "./ImgSlider/photo1.jpg";
-import video from './ImgSlider/video.mp4';
+
  
 
 function Slider() {
   const media = [
-    { type: "video", source: video },
+    
   { type: "image", source: photo1 },
   { type: "image", source: photo2 },
   { type: "image", source: photo3 }

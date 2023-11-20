@@ -6,10 +6,10 @@ font-size: 35px;
 margin-top: -50px;
 }
 .gen-ord{
-   display: flex;
+   display: grid;
    justify-content: space-around;
-  
-    
+  padding-bottom: 70px;
+   
 }
 .basket-name{
     font-family: 'Permanent Marker', cursive;
@@ -41,26 +41,27 @@ margin-top: -50px;
     color: rgb(217, 103, 16);
 }
 .order{
-display: grid;
-grid-template-columns: 1fr 1fr   ;
-column-gap: 10px;
-margin-left: -40px;
-margin-right: 50px;
+display: flex;
+justify-content: start;
+
+
 }
 .orders{
+    display: grid;
     cursor: pointer;
     margin-top: 20px;
-    border: 1px solid white;
-    font-size: 23px;
+    font-size: 20px;
     padding: 20px;
-    text-align: start;
+    margin: 0px 50px 0px 20px;
     color: aliceblue;
- 
 }
-
+.quanity{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
 .form{
     align-content: center;
-    padding-right: 200px;
+    /* padding-right: 200px; */
 }
 
 .plus,
@@ -79,4 +80,15 @@ margin-right: 50px;
 .quanity{
     color: aliceblue;
     margin-left: 20px;
+}
+.sum{
+    color: aliceblue;
+    display: flex;
+    justify-content: start;
+    padding-left: 120px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.bag-container{
+ 
 }

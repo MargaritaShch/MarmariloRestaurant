@@ -10,7 +10,6 @@ function Footer(){
         <div className="footer">
           <div>
             <ul className="header-menu2">
-              <li>DELIVERY</li>
               <li>ABOUT COMPANY</li>
               <li>CONTACT</li>
             </ul>

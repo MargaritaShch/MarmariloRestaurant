@@ -74,3 +74,77 @@
     margin-bottom: 60px;
     padding-left: 150px;
 }
+
+@media (max-width: 390px){
+    .about-company{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+    .about-company-title,
+    .our-mission-title,
+    .mass-media-title{
+        font-size: 40px;
+        padding-left: 220px;
+        text-align: center;
+        padding-top: 20px;
+    
+    }
+    .our-mission{
+        margin-top: -60px;
+    }
+     .about-company-describe,
+     .our-mission-describe,
+     .mass-media-describe{
+        width: 100%;
+        display: flex;
+        text-align:center;
+        font-size: 18px;
+        padding: 20px 50px 0px 90px;
+     }
+   
+    .block{
+        display: grid;
+       justify-content: center;
+    
+    }
+    .photo-mass{
+        display: grid;
+        justify-content: center;
+        margin-bottom: 50px;
+        /* padding-left: 180px; */
+    
+    }
+    .mass{
+        width: 350px;
+        padding-left: 190px;
+       
+      
+    
+    }
+    
+    .desribe-mass{
+        color: aliceblue;
+        font-size: 21px;
+        width: 350px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        padding-left: 190px;
+    }
+
+   }
+   
+   @media (min-width: 768px) {
+   
+   }
+   
+   /* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
+   @media (min-width: 992px) {
+    
+   }
+   
+   /* Устройства с большим экраном (компьютеры, 1200px и выше) */
+   @media (min-width: 1200px) {
+   
+     }

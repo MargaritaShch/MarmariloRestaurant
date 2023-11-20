@@ -1,0 +1,27 @@
+.App1{
+   
+    
+}
+
+@media (max-width: 390px){
+   .fot-gen{
+    margin-top: 300px;
+   }
+
+  }
+  
+  @media (min-width: 768px) {
+    .fot-gen{
+      margin-top: 250px;
+     }
+  }
+  
+  /* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
+  @media (min-width: 992px) {
+   
+  }
+  
+  /* Устройства с большим экраном (компьютеры, 1200px и выше) */
+  @media (min-width: 1200px) {
+  
+    }

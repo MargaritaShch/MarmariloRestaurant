@@ -85,11 +85,42 @@ filter: blur(0);
   
 }
 
-/* .marmarilo{
- 
-    animation: animate 2s linear infinite;
-    animation-delay: 1s;
-} */
+@media (max-width: 390px){
+    .cover{
+        width: 100%;
+        padding-left: 170px;
+   
+    }
+    .cover span{
+        margin-bottom: 10px;
+        font-size: 60px;
+    }
+
+  }
+  
+  @media (min-width: 768px) {
+    .cover{
+        width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-left: 100px;
+   
+    }
+    .cover span{
+        margin-bottom: 30px;
+        font-size: 60px;
+    }    
+  }
+  
+  /* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
+  @media (min-width: 992px) {
+   
+  }
+  
+  /* Устройства с большим экраном (компьютеры, 1200px и выше) */
+  @media (min-width: 1200px) {
+  
+    }
 
 
 

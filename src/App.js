@@ -1,4 +1,4 @@
-import React,{useRef, useState} from 'react';
+import React from 'react';
 import './App.css';
 import AboutCompany from './AboutCompany/AboutCompany';
 import ProProduct from './ProProduct/ProProduct';
@@ -7,9 +7,7 @@ import PageAboutCompany from './Pages/PageAboutCompany';
 import Contact from './Contact/Contact';
 
 
-
 function App() {
- 
   return (
     <BrowserRouter>
       <Routes>
@@ -18,7 +16,6 @@ function App() {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/AboutCompany" element={<AboutCompany />} />
       </Routes>
-  
     </BrowserRouter> 
   );
 }

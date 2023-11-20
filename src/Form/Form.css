@@ -5,14 +5,15 @@ justify-content: center;
 .item-form input,
 .item-form textarea,
 .adress{
-    width: 205%;
-    height: 40px;
+    width: 30%;
+    height: 45px;
     margin-top: 20px;
     color: white;
     text-align: start;
     font-size: 15px;
     padding-left: 20px;
     border: none;
+    border-radius: 15px;
     background-color: rgba(240, 248, 255, 0.278);
     cursor: pointer;
     box-shadow: 1px 1px 1px 1px rgba(126, 123, 123, 0.31);

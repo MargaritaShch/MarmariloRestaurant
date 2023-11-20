@@ -62,7 +62,7 @@ const ProductList = forwardRef((props, ref) => {
                 </button>
               </div>
               <div>
-                {/* <img src={burger2} alt="burger1" className="photo-burger" /> */}
+                <img src={burger2} alt="burger1" className="photo-burger" />
               </div>
             </div>
 
@@ -85,7 +85,7 @@ const ProductList = forwardRef((props, ref) => {
                 </button>
               </div>
               <div>
-                {/* <img src={burger3} alt="burger1" className="photo-burger" /> */}
+                <img src={burger3} alt="burger1" className="photo-burger" />
               </div>
             </div>
 
@@ -108,7 +108,7 @@ const ProductList = forwardRef((props, ref) => {
                 </button>
               </div>
               <div>
-                {/* <img src={burger4} alt="burger1" className="photo-burger" /> */}
+                <img src={burger4} alt="burger1" className="photo-burger" />
               </div>
             </div>
 
@@ -131,7 +131,7 @@ const ProductList = forwardRef((props, ref) => {
                 </button>
               </div>
               <div>
-                {/* <img src={burger5} alt="burger1" className="photo-burger" /> */}
+                <img src={burger5} alt="burger1" className="photo-burger" />
               </div>
             </div>
 
@@ -154,7 +154,7 @@ const ProductList = forwardRef((props, ref) => {
                 </button>
               </div>
               <div>
-                {/* <img src={burger6} alt="burger1" className="photo-burger" /> */}
+                <img src={burger6} alt="burger1" className="photo-burger" />
               </div>
             </div>
           </div>
@@ -187,7 +187,7 @@ const ProductList = forwardRef((props, ref) => {
                   </button>
                 </div>
                 <div>
-                  {/* <img src={salad1} alt="burger1" className="photo-burger" /> */}
+                  <img src={salad1} alt="burger1" className="photo-burger" />
                 </div>
               </div>
 
@@ -209,7 +209,7 @@ const ProductList = forwardRef((props, ref) => {
                   </button>
                 </div>
                 <div>
-                  {/* <img src={salad1} alt="burger1" className="photo-burger" /> */}
+                  <img src={salad1} alt="burger1" className="photo-burger" />
                 </div>
               </div>
 
@@ -231,7 +231,7 @@ const ProductList = forwardRef((props, ref) => {
                   </button>
                 </div>
                 <div>
-                  {/* <img src={salad1} alt="burger1" className="photo-burger" /> */}
+                  <img src={salad1} alt="burger1" className="photo-burger" />
                 </div>
               </div>
             </div>
@@ -265,7 +265,7 @@ const ProductList = forwardRef((props, ref) => {
                   </button>
                 </div>
                 <div>
-                  {/* <img src={starter1} alt="burger1" className="photo-burger" /> */}
+                  <img src={starter1} alt="burger1" className="photo-burger" />
                 </div>
               </div>
 
@@ -287,7 +287,7 @@ const ProductList = forwardRef((props, ref) => {
                   </button>
                 </div>
                 <div>
-                  {/* <img src={starter2} alt="burger1" className="photo-burger" /> */}
+                  <img src={starter2} alt="burger1" className="photo-burger" />
                 </div>
               </div>
 
@@ -309,7 +309,7 @@ const ProductList = forwardRef((props, ref) => {
                   </button>
                 </div>
                 <div>
-                  {/* <img src={starter3} alt="burger1" className="photo-burger" /> */}
+                  <img src={starter3} alt="burger1" className="photo-burger" />
                 </div>
               </div>
             </div>
@@ -343,7 +343,7 @@ const ProductList = forwardRef((props, ref) => {
                   </button>
                 </div>
                 <div>
-                  {/* <img src={drinks1} alt="burger1" className="photo-burger" /> */}
+                  <img src={drinks1} alt="burger1" className="photo-burger" />
                 </div>
               </div>
 
@@ -365,7 +365,7 @@ const ProductList = forwardRef((props, ref) => {
                   </button>
                 </div>
                 <div>
-                  {/* <img src={drinks1} alt="burger1" className="photo-burger" /> */}
+                  <img src={drinks1} alt="burger1" className="photo-burger" />
                 </div>
               </div>
 
@@ -387,7 +387,7 @@ const ProductList = forwardRef((props, ref) => {
                   </button>
                 </div>
                 <div>
-                  {/* <img src={drinks1} alt="burger1" className="photo-burger" /> */}
+                  <img src={drinks1} alt="burger1" className="photo-burger" />
                 </div>
               </div>
               <div className="block1">
@@ -408,7 +408,7 @@ const ProductList = forwardRef((props, ref) => {
                   </button>
                 </div>
                 <div>
-                  {/* <img src={drinks1} alt="burger1" className="photo-burger" /> */}
+                  <img src={drinks1} alt="burger1" className="photo-burger" />
                 </div>
               </div>
             </div>
@@ -439,7 +439,7 @@ const ProductList = forwardRef((props, ref) => {
                   </button>
                 </div>
                 <div>
-                  {/* <img src={sauce1} alt="burger1" className="photo-sauce" /> */}
+                  <img src={sauce1} alt="burger1" className="photo-sauce" />
                 </div>
               </div>
 
@@ -458,7 +458,7 @@ const ProductList = forwardRef((props, ref) => {
                   </button>
                 </div>
                 <div>
-                  {/* <img src={sauce2} alt="burger1" className="photo-sauce" /> */}
+                  <img src={sauce2} alt="burger1" className="photo-sauce" />
                 </div>
               </div>
 
@@ -477,7 +477,7 @@ const ProductList = forwardRef((props, ref) => {
                   </button>
                 </div>
                 <div>
-                  {/* <img src={sauce4} alt="burger1" className="photo-sauce" /> */}
+                  <img src={sauce4} alt="burger1" className="photo-sauce" />
                 </div>
               </div>
             </div>

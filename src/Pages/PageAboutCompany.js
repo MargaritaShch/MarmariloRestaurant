@@ -6,6 +6,7 @@ import Menu from '../Menu/Menu';
 import ProductList from '../ProductList/ProductList';
 import Footer from '../Footer/Footer';
 import Bag from "../Bag/Bag";
+import './PageAboutCompany.css'
 
 function PageAboutCompany({updateQuantityInOtherComponent}){
     const [products, setProducts] = useState([])
@@ -28,15 +29,32 @@ function PageAboutCompany({updateQuantityInOtherComponent}){
       setCount(count+1);
      
     }
-    const addToBag = (product)=>{
-      {setProducts([...products, product])}
-       if(product){
-       }
-       
-    }
+    const addToBag = (product) => {
+      setProducts((prevProducts) => {
+        const updatedProducts = { ...prevProducts };
+    
+        if (updatedProducts[product.name]) {
+          // Если продукт уже существует, обновляем количество и цену
+          updatedProducts[product.name].quantity += 1;
+          updatedProducts[product.name].price += parseFloat(product.price);
+        } else {
+          // Если продукта нет, добавляем новый
+          updatedProducts[product.name] = {
+            name: product.name,
+            price: parseFloat(product.price),
+            quantity: 1,
+            totalPrice: parseFloat(product.price)
+          };
+      
+        }
+     updatedProducts[product.name].totalPrice =
+      updatedProducts[product.name].quantity * updatedProducts[product.name].price;
+        return updatedProducts;
+      });
+    };
 
     return (
-      <div className="App">
+      <div className="App1">
         <Header count={count} />
         <Cover />
         <Slider />
@@ -58,8 +76,10 @@ function PageAboutCompany({updateQuantityInOtherComponent}){
           addToBag={addToBag}
           updateQuantity={updateQuantityInOtherComponent} 
         />
+        <div className="fot-gen">
         <Footer />
-        <Bag products={products} />
+        </div>
+        
       </div>
     );
   }
