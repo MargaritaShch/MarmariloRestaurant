@@ -87,34 +87,36 @@ filter: blur(0);
 
 @media (max-width: 390px){
     .cover{
-        width: 100%;
-        padding-left: 170px;
-   
+        width: 70%;
+        padding-left: 250px;
     }
     .cover span{
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         font-size: 60px;
     }
-
   }
   
   @media (min-width: 768px) {
     .cover{
         width: 100%;
-      display: flex;
-      justify-content: center;
-      padding-left: 100px;
-   
+        padding-left: 370px;
     }
     .cover span{
         margin-bottom: 30px;
-        font-size: 60px;
+        font-size: 100px;
     }    
   }
   
   /* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
   @media (min-width: 992px) {
-   
+    .cover{
+        width: 100%;
+        padding-left: 400px;
+    }
+    .cover span{
+        margin-bottom: 40px;
+        font-size: 120px;
+    }    
   }
   
   /* Устройства с большим экраном (компьютеры, 1200px и выше) */

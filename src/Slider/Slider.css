@@ -54,41 +54,44 @@
 @media (max-width: 390px){
     .slider{
         width: 100%;   
-        padding-left: 90px;
+        padding-left: 120px;
     }
     
     .slider img{
-        width: 180%;
-        height: 300px;
-    } 
+        width: 130%;
+        height: 10%;
+    }
 
-.right{
-    width: 30px;
-    height: 30px;
-   
-}
+    .right{
+        width: 30px;
+        height: 30px;  
+    }
 
   }
   
   @media (min-width: 768px) {
     .slider{
         width: 100%;   
-        display: flex;
-        justify-content: center;
     }
     
     .slider img{
-        margin-bottom: 50px;
-        width: 500px;
-        height: 20%;
-       
+       margin-left: 600px;
+        width: 120%;
+        height: 10%;  
     }
-
   }
   
   /* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
   @media (min-width: 992px) {
-   
+    .slider{
+        width: 100%;   
+    }
+    
+    .slider img{
+       margin-left: 650px;
+        width: 110%;
+        height: 10%;  
+    }
   }
   
   /* Устройства с большим экраном (компьютеры, 1200px и выше) */

@@ -63,3 +63,23 @@ img{
         width: 70px;  
     }  
 }
+
+@media (min-width: 992px){
+    .footer{
+        display: flex;
+        justify-content: center;
+
+        padding-bottom: 20px;
+        padding-top: 20px ;
+      
+    }
+   
+    .header-menu2 li{
+       font-size: 35px;
+       padding-left: 50px;
+       
+    }
+    .icon{
+        width: 70px;  
+    }  
+}
